@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"skipLibCheck": true,
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"lib": ["ES2015"]
+	},
+	"include": ["vite.config.ts", "src/module-federation-vite.ts"]
+}
